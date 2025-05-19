@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="barcode-rt" bajaVersion="0" vendor="Hamtaro" vendorVersion="1.0" description="" preferredSymbol="barcode" nre="true" autoload="true" installable="true" buildMillis="%%BUILD_MILLIS%%" buildHost="DESKTOP-7R05MK7" moduleName="barcode" runtimeProfile="rt">
+ <dependencies>
+  <dependency name="baja" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="control-rt" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="modbusTcp-rt" vendor="Tridium" vendorVersion="4.14"/>
+ </dependencies>
+ <dirs/>
+ <installation/>
+ <types>
+  <type class="com.hamtaro.barcode.BBarcodeNumeric" name="BarcodeNumeric"/>
+ </types>
+ <permissions>
+  <niagara-permission-groups type="all"/>
+  <niagara-permission-groups type="workbench"/>
+  <niagara-permission-groups type="station"/>
+ </permissions>
+ <moduleParts>
+  <modulePart name="barcode-ux" runtimeProfile="ux"/>
+  <modulePart name="barcode-wb" runtimeProfile="wb"/>
+ </moduleParts>
+</module>

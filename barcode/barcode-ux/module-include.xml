@@ -1,0 +1,15 @@
+<types>
+  <!--com.hamtaro.barcode.ux-->
+  <!--com.rus.barcode.ux-->
+  <type class="com.rus.barcode.ux.BBarcodeGeneratorUx" name="BarcodeGeneratorUx">
+    <agent>
+      <on type="barcode:BarcodeNumeric"/>
+    </agent>
+  </type>
+  <type class="com.hamtaro.barcode.ux.BBarcodeJsBuild" name="BarcodeJsBuild"/>
+  <type class="com.hamtaro.barcode.ux.BBarcodeGeneratorUx" name="BarcodeGeneratorUx">
+    <agent>
+      <on type="barcode:BarcodeNumeric"/>
+    </agent>
+  </type>
+</types>

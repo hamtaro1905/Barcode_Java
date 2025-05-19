@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bajadoc version="2.0" createdBy="niagara-baja-doclet-1.0.9" createdAt="17-May-2025" createdOn="DESKTOP-7R05MK7">
+<class module="barcode" runtimeProfile="wb" qualifiedName="com.hamtaro.barcode.ui.BBarcodeGenerator" name="BBarcodeGenerator" packageName="com.hamtaro.barcode.ui" public="true">
+<description/>
+<extends>
+<type class="javax.baja.ui.BWidget"/>
+</extends>
+<property name="imageBuffer" flags="">
+<type class="java.lang.String"/>
+<description>
+Slot for the &lt;code&gt;imageBuffer&lt;/code&gt; property.
+</description>
+<tag name="@see">#getImageBuffer</tag>
+<tag name="@see">#setImageBuffer</tag>
+</property>
+
+<property name="barcodeWidth" flags="">
+<type class="double"/>
+<description>
+Slot for the &lt;code&gt;barcodeWidth&lt;/code&gt; property.
+</description>
+<tag name="@see">#getBarcodeWidth</tag>
+<tag name="@see">#setBarcodeWidth</tag>
+</property>
+
+<property name="barcodeHeight" flags="">
+<type class="double"/>
+<description>
+Slot for the &lt;code&gt;barcodeHeight&lt;/code&gt; property.
+</description>
+<tag name="@see">#getBarcodeHeight</tag>
+<tag name="@see">#setBarcodeHeight</tag>
+</property>
+
+<!-- com.hamtaro.barcode.ui.BBarcodeGenerator() -->
+<constructor name="BBarcodeGenerator" public="true">
+<description/>
+</constructor>
+
+<!-- com.hamtaro.barcode.ui.BBarcodeGenerator.getImageBuffer() -->
+<method name="getImageBuffer"  public="true">
+<description>
+Get the &lt;code&gt;imageBuffer&lt;/code&gt; property.
+</description>
+<tag name="@see">#imageBuffer</tag>
+<return>
+<type class="java.lang.String"/>
+</return>
+</method>
+
+<!-- com.hamtaro.barcode.ui.BBarcodeGenerator.setImageBuffer(java.lang.String) -->
+<method name="setImageBuffer"  public="true">
+<description>
+Set the &lt;code&gt;imageBuffer&lt;/code&gt; property.
+</description>
+<tag name="@see">#imageBuffer</tag>
+<parameter name="v">
+<type class="java.lang.String"/>
+</parameter>
+<return>
+<type class="void"/>
+</return>
+</method>
+
+<!-- com.hamtaro.barcode.ui.BBarcodeGenerator.getBarcodeWidth() -->
+<method name="getBarcodeWidth"  public="true">
+<description>
+Get the &lt;code&gt;barcodeWidth&lt;/code&gt; property.
+</description>
+<tag name="@see">#barcodeWidth</tag>
+<return>
+<type class="double"/>
+</return>
+</method>
+
+<!-- com.hamtaro.barcode.ui.BBarcodeGenerator.setBarcodeWidth(double) -->
+<method name="setBarcodeWidth"  public="true">
+<description>
+Set the &lt;code&gt;barcodeWidth&lt;/code&gt; property.
+</description>
+<tag name="@see">#barcodeWidth</tag>
+<parameter name="v">
+<type class="double"/>
+</parameter>
+<return>
+<type class="void"/>
+</return>
+</method>
+
+<!-- com.hamtaro.barcode.ui.BBarcodeGenerator.getBarcodeHeight() -->
+<method name="getBarcodeHeight"  public="true">
+<description>
+Get the &lt;code&gt;barcodeHeight&lt;/code&gt; property.
+</description>
+<tag name="@see">#barcodeHeight</tag>
+<return>
+<type class="double"/>
+</return>
+</method>
+
+<!-- com.hamtaro.barcode.ui.BBarcodeGenerator.setBarcodeHeight(double) -->
+<method name="setBarcodeHeight"  public="true">
+<description>
+Set the &lt;code&gt;barcodeHeight&lt;/code&gt; property.
+</description>
+<tag name="@see">#barcodeHeight</tag>
+<parameter name="v">
+<type class="double"/>
+</parameter>
+<return>
+<type class="void"/>
+</return>
+</method>
+
+<!-- com.hamtaro.barcode.ui.BBarcodeGenerator.getType() -->
+<method name="getType"  public="true">
+<annotation><type class="java.lang.Override"/>
+</annotation>
+<description/>
+<return>
+<type class="javax.baja.sys.Type"/>
+</return>
+</method>
+
+<!-- com.hamtaro.barcode.ui.BBarcodeGenerator.paint(javax.baja.gx.Graphics) -->
+<method name="paint"  public="true">
+<annotation><type class="java.lang.Override"/>
+</annotation>
+<description/>
+<parameter name="g">
+<type class="javax.baja.gx.Graphics"/>
+</parameter>
+<return>
+<type class="void"/>
+</return>
+</method>
+
+<!-- com.hamtaro.barcode.ui.BBarcodeGenerator.imageBuffer -->
+<field name="imageBuffer"  public="true" static="true" final="true">
+<type class="javax.baja.sys.Property"/>
+<description>
+Slot for the &lt;code&gt;imageBuffer&lt;/code&gt; property.
+</description>
+<tag name="@see">#getImageBuffer</tag>
+<tag name="@see">#setImageBuffer</tag>
+</field>
+
+<!-- com.hamtaro.barcode.ui.BBarcodeGenerator.barcodeWidth -->
+<field name="barcodeWidth"  public="true" static="true" final="true">
+<type class="javax.baja.sys.Property"/>
+<description>
+Slot for the &lt;code&gt;barcodeWidth&lt;/code&gt; property.
+</description>
+<tag name="@see">#getBarcodeWidth</tag>
+<tag name="@see">#setBarcodeWidth</tag>
+</field>
+
+<!-- com.hamtaro.barcode.ui.BBarcodeGenerator.barcodeHeight -->
+<field name="barcodeHeight"  public="true" static="true" final="true">
+<type class="javax.baja.sys.Property"/>
+<description>
+Slot for the &lt;code&gt;barcodeHeight&lt;/code&gt; property.
+</description>
+<tag name="@see">#getBarcodeHeight</tag>
+<tag name="@see">#setBarcodeHeight</tag>
+</field>
+
+<!-- com.hamtaro.barcode.ui.BBarcodeGenerator.TYPE -->
+<field name="TYPE"  public="true" static="true" final="true">
+<type class="javax.baja.sys.Type"/>
+<description/>
+</field>
+
+</class>
+</bajadoc>

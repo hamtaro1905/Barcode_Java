@@ -1,0 +1,10 @@
+<types>
+  <!--com.hamtaro.barcode.ui-->
+  <type class="com.hamtaro.barcode.ui.BBarcodeBinding" name="BarcodeBinding">
+    <agent>
+      <on type="barcode:BarcodeNumeric"/>
+      <on type="barcode:BarcodeGenerator"/>
+    </agent>
+  </type>
+  <type class="com.hamtaro.barcode.ui.BBarcodeGenerator" name="BarcodeGenerator"/>
+</types>

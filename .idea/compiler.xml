@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <option name="niagara.module.root" value="C:\Niagara\barcode\barcode\barcode-rt" />
+        <option name="niagara.test.roots" value="srcTest=java" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../niagara-4.14.0.162/bin/ext/nre.jar" />
+        </processorPath>
+        <module name="barcode.barcode-rt.moduleTest" />
+        <module name="barcode.barcode-rt.main" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <option name="niagara.module.root" value="C:\Niagara\barcode\barcode\barcode-ux" />
+        <option name="niagara.test.roots" value="srcTest=java" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../niagara-4.14.0.162/bin/ext/nre.jar" />
+        </processorPath>
+        <module name="barcode.barcode-ux.moduleTest" />
+        <module name="barcode.barcode-ux.main" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <option name="niagara.module.root" value="C:\Niagara\barcode\barcode\barcode-wb" />
+        <option name="niagara.test.roots" value="srcTest=java" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../niagara-4.14.0.162/bin/ext/nre.jar" />
+        </processorPath>
+        <module name="barcode.barcode-wb.main" />
+        <module name="barcode.barcode-wb.moduleTest" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="barcode.barcode-rt" options="-Aniagara.module.root=C:\Niagara\barcode\barcode\barcode-rt -Aniagara.test.roots=srcTest=java" />
+      <module name="barcode.barcode-rt.main" options="-profile compact3 -Aniagara.module.root=C:\Niagara\barcode\barcode\barcode-rt -Aniagara.test.roots=srcTest=java" />
+      <module name="barcode.barcode-rt.moduleTest" options="-Aniagara.module.root=C:\Niagara\barcode\barcode\barcode-rt -Aniagara.test.roots=srcTest=java" />
+      <module name="barcode.barcode-rt.test" options="-Aniagara.module.root=C:\Niagara\barcode\barcode\barcode-rt -Aniagara.test.roots=srcTest=java" />
+      <module name="barcode.barcode-ux" options="-Aniagara.module.root=C:\Niagara\barcode\barcode\barcode-ux -Aniagara.test.roots=srcTest=java" />
+      <module name="barcode.barcode-ux.main" options="-profile compact3 -Aniagara.module.root=C:\Niagara\barcode\barcode\barcode-ux -Aniagara.test.roots=srcTest=java" />
+      <module name="barcode.barcode-ux.moduleTest" options="-Aniagara.module.root=C:\Niagara\barcode\barcode\barcode-ux -Aniagara.test.roots=srcTest=java" />
+      <module name="barcode.barcode-ux.test" options="-Aniagara.module.root=C:\Niagara\barcode\barcode\barcode-ux -Aniagara.test.roots=srcTest=java" />
+      <module name="barcode.barcode-wb" options="-Aniagara.module.root=C:\Niagara\barcode\barcode\barcode-wb -Aniagara.test.roots=srcTest=java" />
+      <module name="barcode.barcode-wb.main" options="-Aniagara.module.root=C:\Niagara\barcode\barcode\barcode-wb -Aniagara.test.roots=srcTest=java" />
+      <module name="barcode.barcode-wb.moduleTest" options="-Aniagara.module.root=C:\Niagara\barcode\barcode\barcode-wb -Aniagara.test.roots=srcTest=java" />
+      <module name="barcode.barcode-wb.test" options="-Aniagara.module.root=C:\Niagara\barcode\barcode\barcode-wb -Aniagara.test.roots=srcTest=java" />
+    </option>
+  </component>
+</project>

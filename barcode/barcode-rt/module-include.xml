@@ -1,0 +1,4 @@
+<types>
+  <!--com.hamtaro.barcode-->
+  <type class="com.hamtaro.barcode.BBarcodeNumeric" name="BarcodeNumeric"/>
+</types>

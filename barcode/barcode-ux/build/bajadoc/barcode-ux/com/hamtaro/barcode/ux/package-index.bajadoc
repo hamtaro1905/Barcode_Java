@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bajadoc version="2.0" createdBy="niagara-baja-doclet-1.0.9" createdAt="17-May-2025" createdOn="DESKTOP-7R05MK7">
+<package module="barcode" runtimeProfile="ux" name="com.hamtaro.barcode.ux">
+<description/>
+<class packageName="com.hamtaro.barcode.ux" name="BBarcodeGeneratorUx"/>
+<class packageName="com.hamtaro.barcode.ux" name="BBarcodeJsBuild"/>
+</package>
+</bajadoc>

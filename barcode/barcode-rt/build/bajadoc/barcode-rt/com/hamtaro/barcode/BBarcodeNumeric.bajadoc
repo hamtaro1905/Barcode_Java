@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bajadoc version="2.0" createdBy="niagara-baja-doclet-1.0.9" createdAt="17-May-2025" createdOn="DESKTOP-7R05MK7">
+<class module="barcode" runtimeProfile="rt" qualifiedName="com.hamtaro.barcode.BBarcodeNumeric" name="BBarcodeNumeric" packageName="com.hamtaro.barcode" public="true">
+<description/>
+<extends>
+<type class="javax.baja.control.BNumericWritable"/>
+</extends>
+<property name="imageBuffer" flags="r">
+<type class="java.lang.String"/>
+<description>
+Slot for the &lt;code&gt;imageBuffer&lt;/code&gt; property.
+</description>
+<tag name="@see">#getImageBuffer</tag>
+<tag name="@see">#setImageBuffer</tag>
+</property>
+
+<property name="barcodeWidth" flags="r">
+<type class="double"/>
+<description>
+Slot for the &lt;code&gt;barcodeWidth&lt;/code&gt; property.
+</description>
+<tag name="@see">#getBarcodeWidth</tag>
+<tag name="@see">#setBarcodeWidth</tag>
+</property>
+
+<property name="barcodeHeight" flags="r">
+<type class="double"/>
+<description>
+Slot for the &lt;code&gt;barcodeHeight&lt;/code&gt; property.
+</description>
+<tag name="@see">#getBarcodeHeight</tag>
+<tag name="@see">#setBarcodeHeight</tag>
+</property>
+
+<property name="logginEnabled" flags="">
+<type class="boolean"/>
+<description>
+Slot for the &lt;code&gt;logginEnabled&lt;/code&gt; property.
+</description>
+<tag name="@see">#getLogginEnabled</tag>
+<tag name="@see">#setLogginEnabled</tag>
+</property>
+
+<!-- com.hamtaro.barcode.BBarcodeNumeric() -->
+<constructor name="BBarcodeNumeric" public="true">
+<description/>
+</constructor>
+
+<!-- com.hamtaro.barcode.BBarcodeNumeric.getImageBuffer() -->
+<method name="getImageBuffer"  public="true">
+<description>
+Get the &lt;code&gt;imageBuffer&lt;/code&gt; property.
+</description>
+<tag name="@see">#imageBuffer</tag>
+<return>
+<type class="java.lang.String"/>
+</return>
+</method>
+
+<!-- com.hamtaro.barcode.BBarcodeNumeric.setImageBuffer(java.lang.String) -->
+<method name="setImageBuffer"  public="true">
+<description>
+Set the &lt;code&gt;imageBuffer&lt;/code&gt; property.
+</description>
+<tag name="@see">#imageBuffer</tag>
+<parameter name="v">
+<type class="java.lang.String"/>
+</parameter>
+<return>
+<type class="void"/>
+</return>
+</method>
+
+<!-- com.hamtaro.barcode.BBarcodeNumeric.getBarcodeWidth() -->
+<method name="getBarcodeWidth"  public="true">
+<description>
+Get the &lt;code&gt;barcodeWidth&lt;/code&gt; property.
+</description>
+<tag name="@see">#barcodeWidth</tag>
+<return>
+<type class="double"/>
+</return>
+</method>
+
+<!-- com.hamtaro.barcode.BBarcodeNumeric.setBarcodeWidth(double) -->
+<method name="setBarcodeWidth"  public="true">
+<description>
+Set the &lt;code&gt;barcodeWidth&lt;/code&gt; property.
+</description>
+<tag name="@see">#barcodeWidth</tag>
+<parameter name="v">
+<type class="double"/>
+</parameter>
+<return>
+<type class="void"/>
+</return>
+</method>
+
+<!-- com.hamtaro.barcode.BBarcodeNumeric.getBarcodeHeight() -->
+<method name="getBarcodeHeight"  public="true">
+<description>
+Get the &lt;code&gt;barcodeHeight&lt;/code&gt; property.
+</description>
+<tag name="@see">#barcodeHeight</tag>
+<return>
+<type class="double"/>
+</return>
+</method>
+
+<!-- com.hamtaro.barcode.BBarcodeNumeric.setBarcodeHeight(double) -->
+<method name="setBarcodeHeight"  public="true">
+<description>
+Set the &lt;code&gt;barcodeHeight&lt;/code&gt; property.
+</description>
+<tag name="@see">#barcodeHeight</tag>
+<parameter name="v">
+<type class="double"/>
+</parameter>
+<return>
+<type class="void"/>
+</return>
+</method>
+
+<!-- com.hamtaro.barcode.BBarcodeNumeric.getLogginEnabled() -->
+<method name="getLogginEnabled"  public="true">
+<description>
+Get the &lt;code&gt;logginEnabled&lt;/code&gt; property.
+</description>
+<tag name="@see">#logginEnabled</tag>
+<return>
+<type class="boolean"/>
+</return>
+</method>
+
+<!-- com.hamtaro.barcode.BBarcodeNumeric.setLogginEnabled(boolean) -->
+<method name="setLogginEnabled"  public="true">
+<description>
+Set the &lt;code&gt;logginEnabled&lt;/code&gt; property.
+</description>
+<tag name="@see">#logginEnabled</tag>
+<parameter name="v">
+<type class="boolean"/>
+</parameter>
+<return>
+<type class="void"/>
+</return>
+</method>
+
+<!-- com.hamtaro.barcode.BBarcodeNumeric.getType() -->
+<method name="getType"  public="true">
+<annotation><type class="java.lang.Override"/>
+</annotation>
+<description/>
+<return>
+<type class="javax.baja.sys.Type"/>
+</return>
+</method>
+
+<!-- com.hamtaro.barcode.BBarcodeNumeric.changed(javax.baja.sys.Property, javax.baja.sys.Context) -->
+<method name="changed"  public="true">
+<annotation><type class="java.lang.Override"/>
+</annotation>
+<description/>
+<parameter name="prop">
+<type class="javax.baja.sys.Property"/>
+</parameter>
+<parameter name="cx">
+<type class="javax.baja.sys.Context"/>
+</parameter>
+<return>
+<type class="void"/>
+</return>
+</method>
+
+<!-- com.hamtaro.barcode.BBarcodeNumeric.imageBuffer -->
+<field name="imageBuffer"  public="true" static="true" final="true">
+<type class="javax.baja.sys.Property"/>
+<description>
+Slot for the &lt;code&gt;imageBuffer&lt;/code&gt; property.
+</description>
+<tag name="@see">#getImageBuffer</tag>
+<tag name="@see">#setImageBuffer</tag>
+</field>
+
+<!-- com.hamtaro.barcode.BBarcodeNumeric.barcodeWidth -->
+<field name="barcodeWidth"  public="true" static="true" final="true">
+<type class="javax.baja.sys.Property"/>
+<description>
+Slot for the &lt;code&gt;barcodeWidth&lt;/code&gt; property.
+</description>
+<tag name="@see">#getBarcodeWidth</tag>
+<tag name="@see">#setBarcodeWidth</tag>
+</field>
+
+<!-- com.hamtaro.barcode.BBarcodeNumeric.barcodeHeight -->
+<field name="barcodeHeight"  public="true" static="true" final="true">
+<type class="javax.baja.sys.Property"/>
+<description>
+Slot for the &lt;code&gt;barcodeHeight&lt;/code&gt; property.
+</description>
+<tag name="@see">#getBarcodeHeight</tag>
+<tag name="@see">#setBarcodeHeight</tag>
+</field>
+
+<!-- com.hamtaro.barcode.BBarcodeNumeric.logginEnabled -->
+<field name="logginEnabled"  public="true" static="true" final="true">
+<type class="javax.baja.sys.Property"/>
+<description>
+Slot for the &lt;code&gt;logginEnabled&lt;/code&gt; property.
+</description>
+<tag name="@see">#getLogginEnabled</tag>
+<tag name="@see">#setLogginEnabled</tag>
+</field>
+
+<!-- com.hamtaro.barcode.BBarcodeNumeric.TYPE -->
+<field name="TYPE"  public="true" static="true" final="true">
+<type class="javax.baja.sys.Type"/>
+<description/>
+</field>
+
+<!-- com.hamtaro.barcode.BBarcodeNumeric.log -->
+<field name="log"  public="true" static="true" final="true">
+<type class="java.util.logging.Logger"/>
+<description/>
+</field>
+
+<!-- com.hamtaro.barcode.BBarcodeNumeric.df3 -->
+<field name="df3"  public="true" static="true">
+<type class="java.text.DecimalFormat"/>
+<description/>
+</field>
+
+</class>
+</bajadoc>

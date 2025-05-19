@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="barcode-rtTest" bajaVersion="0" vendor="Hamtaro" vendorVersion="1.0" description="Tests for module barcode-rt" preferredSymbol="barcode" nre="true" autoload="true" installable="true" buildMillis="%%BUILD_MILLIS%%" buildHost="DESKTOP-7R05MK7" moduleName="barcodeTest" runtimeProfile="rt">
+ <dependencies>
+  <dependency name="barcode-rt" vendor="Hamtaro" vendorVersion="1.0"/>
+  <dependency name="baja" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="control-rt" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="modbusTcp-rt" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="test-wb" vendor="Tridium" vendorVersion="4.14"/>
+ </dependencies>
+ <dirs/>
+ <installation/>
+ <types>
+  <type class="test.com.hamtaro.barcode.BBarcodeNumericTest" name="BarcodeNumericTest"/>
+ </types>
+</module>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="barcode-wbTest" bajaVersion="0" vendor="Hamtaro" vendorVersion="1.0" description="Tests for module barcode-wb" preferredSymbol="barcode" nre="true" autoload="true" installable="true" buildMillis="%%BUILD_MILLIS%%" buildHost="DESKTOP-7R05MK7" moduleName="barcodeTest" runtimeProfile="wb">
+ <dependencies>
+  <dependency name="barcode-rt" vendor="Hamtaro" vendorVersion="1.0"/>
+  <dependency name="barcode-wb" vendor="Hamtaro" vendorVersion="1.0"/>
+  <dependency name="baja" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="bajaui-wb" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="control-rt" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="gx-rt" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="hx-wb" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="modbusTcp-rt" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="test-wb" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="web-rt" vendor="Tridium" vendorVersion="4.14"/>
+ </dependencies>
+ <dirs/>
+ <installation/>
+</module>

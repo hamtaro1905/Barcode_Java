@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="barcode-uxTest" bajaVersion="0" vendor="Hamtaro" vendorVersion="1.0" description="Tests for module barcode-ux" preferredSymbol="barcode" nre="true" autoload="true" installable="true" buildMillis="%%BUILD_MILLIS%%" buildHost="DESKTOP-7R05MK7" moduleName="barcodeTest" runtimeProfile="ux">
+ <dependencies>
+  <dependency name="barcode-ux" vendor="Hamtaro" vendorVersion="1.0"/>
+  <dependency name="baja" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="control-rt" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="test-wb" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="web-rt" vendor="Tridium" vendorVersion="4.14"/>
+ </dependencies>
+ <dirs/>
+ <installation/>
+</module>

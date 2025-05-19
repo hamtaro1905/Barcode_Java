@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bajadoc version="2.0" createdBy="niagara-baja-doclet-1.0.9" createdAt="17-May-2025" createdOn="DESKTOP-7R05MK7">
+<class module="barcode" runtimeProfile="ux" qualifiedName="com.hamtaro.barcode.ux.BBarcodeGeneratorUx" name="BBarcodeGeneratorUx" packageName="com.hamtaro.barcode.ux" public="true">
+<description/>
+<extends>
+<type class="javax.baja.sys.BSingleton"/>
+</extends>
+<implements>
+<type class="javax.baja.web.js.BIJavaScript"/>
+</implements>
+<implements>
+<type class="javax.baja.web.BIFormFactorMini"/>
+</implements>
+<annotation><type class="javax.baja.nre.annotations.NiagaraSingleton"/>
+</annotation>
+<!-- com.hamtaro.barcode.ux.BBarcodeGeneratorUx() -->
+<constructor name="BBarcodeGeneratorUx" public="true">
+<description/>
+</constructor>
+
+<!-- com.hamtaro.barcode.ux.BBarcodeGeneratorUx.getType() -->
+<method name="getType"  public="true">
+<annotation><type class="java.lang.Override"/>
+</annotation>
+<description/>
+<return>
+<type class="javax.baja.sys.Type"/>
+</return>
+</method>
+
+<!-- com.hamtaro.barcode.ux.BBarcodeGeneratorUx.getJsInfo(javax.baja.sys.Context) -->
+<method name="getJsInfo"  public="true">
+<annotation><type class="java.lang.Override"/>
+</annotation>
+<description/>
+<parameter name="cx">
+<type class="javax.baja.sys.Context"/>
+</parameter>
+<return>
+<type class="javax.baja.web.js.JsInfo"/>
+</return>
+</method>
+
+<!-- com.hamtaro.barcode.ux.BBarcodeGeneratorUx.INSTANCE -->
+<field name="INSTANCE"  public="true" static="true" final="true">
+<type class="com.hamtaro.barcode.ux.BBarcodeGeneratorUx"/>
+<description/>
+</field>
+
+<!-- com.hamtaro.barcode.ux.BBarcodeGeneratorUx.TYPE -->
+<field name="TYPE"  public="true" static="true" final="true">
+<type class="javax.baja.sys.Type"/>
+<description/>
+</field>
+
+</class>
+</bajadoc>
